@@ -10,6 +10,11 @@ function handleSearchTermChange() {
 	if(value.length >= 3) {
 		dispalySpinner();
 		performSearch(value, 0);
+	} else {
+		$('#resultArea').html('');
+		$('#pageInfo').html('');
+		$('#btnPrev').addClass('hidden');
+		$('#btnNext').addClass('hidden');
 	}
 }
 
