@@ -1,0 +1,27 @@
+#searchArea {
+	margin-top: 50px;
+}
+
+#resultArea {
+	margin-top: 20px;
+	min-height: 300px;
+	max-height: 600px;
+	overflow-y: auto;
+}
+
+#pageInfo {
+	margin-top: 10px;
+}
+
+#navigationArea {
+	margin-top: 20px;
+	margin-bottom: 50px !important;
+}
+
+.fa-spinner {
+	color: #FF0000;
+}
+
+.author {
+	margin-left: 10px;
+}
